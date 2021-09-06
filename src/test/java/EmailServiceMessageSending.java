@@ -1,4 +1,4 @@
-import PageObjects.LoggedInUserEmailServicePage;
+import PageFactory.LoggedInUserEmailServicePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,8 +25,6 @@ public class EmailServiceMessageSending extends EmailServiceTestingConfiguration
         Assert.assertEquals(sentEmail.getFistEmailReceiver(), mailToUser);
         Assert.assertEquals(sentEmail.getFistEmailSubject(), emailSubject);
         Assert.assertEquals(sentEmail.getFistEmailBody(), emailTextMessage);
-
-        
     }
 
 }
