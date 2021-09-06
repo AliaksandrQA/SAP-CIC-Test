@@ -1,4 +1,4 @@
-import PageFactory.LoggedInUserEmailServicePage;
+import PageObjects.LoggedInUserEmailServicePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
